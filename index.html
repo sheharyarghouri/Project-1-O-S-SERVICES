@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo"><a href="./index.html"><img src="./LOGO.jpg" alt="logo"></a>
+            </div>
+            <div class="navbar">
+                <!-- <div class="menus"> -->
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#ourservices">Services</a></li>
+                    <li><a href="#aboutus">About</a></li>
+                    <li><a href="#contactus">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="animate_animated animate__heartBeat">
+                <a href="#contactus"><button>Enquire Now</button></a>
+            </div>
+        </div>
+        <div class="services-h" id="ourservices">
+            <h1>Services</h1>
+        </div>
+        <div class="services" id="ourservices">
+            <div class="service">
+                <img src="https://www.enviroindia.in/blog/wp-content/uploads/2014/10/Management-Services1.jpg" alt="">
+                <div class="description">
+                    <h3>Maintenance Services</h3>
+                    <p>We do all types of work Civil, Wood work, Glass Aluminum works, gypsym work, Interior work,
+                        Fabrication work, Electrification Office / Factory
+                        Labour Supply, Furniture shifting and General Services.
+                    </p>
+                    <a href="#contactus"><button>Enquire Now</button></a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fBwRYRY470QNLn5weNEeQxpM3heFRECK9CMPiXRwoVdt374EDwwZIf16W4v2VOxg2Pg&usqp=CAU"
+                    alt="">
+                <div class="description">
+                    <h3>Hygine Services</h3>
+                    <p>General Fumigation / Disnfection / pest Management, Gel Treatment for Cockroach Control,
+                        Rodent
+                        and Mice Control,
+                        Bed Bugs Control, Anti- Termite Treatment, Rodent Control & Snake Control, Tank Cleaning,
+                        Carpet
+                        Shampooing, Sofa/ Chair Shampooing, Roller Blinds Cleaning, Glass Cleaning, Elevation Glass,
+                        Signage & Fascade Cleaning. Floor Scrubbing & Polishing (Wax / Chemical) Floor Grinding &
+                        Polishing (Chemical)
+                        <br>
+                        Be it the Bank, Office, Factory, Restaurant, Library, Hospital, Hotel, or House, we provide
+                        complete range of services on one time, weekly, monthly and yearly contract basis.
+                    </p>
+                    <a href="#contactus"><button>Enquire Now</button></a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVhm9npc2FAqU4BwcZLya1bnbC-lBNGPt8rg&s"
+                    alt="">
+                <div class="description">
+                    <h3>Electrical Services</h3>
+                    <p>We do General Electrification work in banks, offices and factories.</p>
+                    <a href="#contactus"><button>Enquire Now</button></a>
+                </div>
+            </div>
+            <div class="service">
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+                <div class="description">
+                    <h3>CCTV Installation</h3>
+                    <p>We do CCTV Installation on Electrical Grids, Banks and Temporary sites.
+                    </p>
+                    <a href="#contactus"><button>Enquire Now</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="about-h" id="aboutus">
+            <h1>About Us</h1>
+        </div>
+        <div class="about" id="aboutus">
+            <div class="left-img">
+                <img src="https://f.hubspotusercontent30.net/hubfs/7718689/IMAGES/HVAC/Vixxo-Facilities-Management-HVAC-1151366143-1400.jpg"
+                    alt="">
+            </div>
+            <div class="right">
+                <p>At <strong>O.S. SERVICES</strong>, we are committed to providing GREAT SERVICE that
+                    protects your
+                    home
+                    and business, innovatively and creatively producing safer, more efficiently and
+                    effectively.
+                    Our customers, employes, health and the enviornment are our primary concern when
+                    performing
+                    our services. <br><br>
+                    Within a short span of time the company has achieved reasonable progress in the
+                    Market.<br>
+                    <br>
+                    We owe our success to quality, timely service, price and satisfaction of the clients.
+                </p>
+            </div>
+        </div>
+        <!-- <div class="matter">
+            <div class="left-1">
+                <div class="content">
+                    <h1>MAINTENANCE SERVICES</h1>
+                    <hr>
+                    <ul>
+                        <li>General services</li>
+                        <br>
+                        <li>All types of Civil Works</li>
+                        <ul>
+                            <li>
+                                <p>(Paint Jobs/Plastic, Masonry Work Etc.)</p>
+                            </li>
+                        </ul>
+                        <br>
+                        <li>All Type of Wood Works</li>
+                        <ul>
+                            <li>
+                                <p>(Making of New Office Furniture Complete, Trunkey Jobs,<br> All Types of Furniture
+                                    Polish)</p>
+                            </li>
+                        </ul>
+                        <br>
+                        <li>All Types of Glass Aluminum</li>
+                        <ul>
+                            <li>
+                                <p>(Any thickness class 12mm, Plane, Frosted and Designed)</p>
+                            </li>
+                        </ul>
+                        <br>
+                        <li>Gypsum Work All type of partitions and Roof.</li>
+                        <br>
+                        <li>All type of Interior Works</li>
+                        <ul>
+                            <li>
+                                <p>(Security Films, Decorative Films, Frost Flims, Tinted Flims,<br> Printed Flims,
+                                    Roller Blinds, False Ceiling, Wall paper)</p>
+                            </li>
+                        </ul>
+                        <br>
+                        <li>All type of Fabrication works</li>
+                        <ul>
+                            <li>
+                                <p>(Green Net, Shades, Parking Shades, shelves, Grills etc.)</p>
+                            </li>
+                        </ul>
+                        <br>
+                        <li>Electrification Office / Factory</li>
+                        <ul>
+                            <li>
+                                <p>(New and Maintenance work <strong>one time</strong> or <strong>Contract
+                                        base</strong>.)</p>
+                            </li>
+                        </ul>
+                        <br>
+                        <li>Labour Supply</li>
+                        <ul>
+                            <li>
+                                <p>(Daily and Monthly basis)</p>
+                            </li>
+                        </ul>
+                        <br>
+                        <li>Furniture Shifting</li>
+                        <ul>
+                            <li>
+                                <p>(Moving and Shifting of Office Furniture, Cartons, etc.)</p>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-1">
+                <div class="pics">
+                    <img src="" alt="">
+                </div>
+            </div> -->
+        <!-- </div> -->
+        <div class="videos-h">
+            <h1>Videos</h1>
+        </div>
+        <div class="videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9x5Yv7Z17s0?si=U20SoKW7WhNa3N31"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Sa4dDSdjETs?si=aue8vXUnubPJGsRr"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </p>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UkHR9yd2HF0?si=EVIolInX-9wxPVhW"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </p>
+        </div>
+        <div class="try-1">
+            <div class="enlist-h">
+                <h1>ENLISTMENTS</h1>
+            </div>
+            <div class="enlistment">
+                <div class="post">
+                    <div class="post-media">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfIyTVoiIndkHI8zJEh19XkTL1HdZw2rytw&s"
+                            alt="">
+                    </div>
+                    <div class="post-details">
+                        <h4>Goverment of Pakistan</h4>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-media">
+                        <img src="data:image/jpeg;base64,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gQyQYEAAAAAAAAAAAAAAAZLzrLuXqc+X2dGL6aafVj4V5G1PWGN/aViyoAAAAAAAAAAAAAAAAAAAAABOIDECAAAAAAAAAAAAAAAAGS86y7l6nPl9nRi+nPTqRwj70dy+8vgaVtXWPlneltp+FsyPFHmRbevaulujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlujMjxR5kN69mlumS7qLFbVu+K+Zz5bRs6MVZ4+n/2Q=="
+                            alt="">
+                    </div>
+                    <div class="post-details">
+                        <h4>Fedral Board of Revenue</h4>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-media">
+                        <img src="data:image/png;base64,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"
+                            alt="">
+                    </div>
+                    <div class="post-details">
+                        <h4>Sindh Revenue Board</h4>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-media">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnis-JwbmPEyKbDv6RbhyA14pf7ByfgEYLg&s"
+                            alt="">
+                    </div>
+                    <div class="post-details">
+                        <h4>Pakistan Pest Management Association</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="client-h">
+                <h1>Our Clients</h1>
+            </div>
+            <div class="clients">
+                <div class="client">
+                    <div class="client-media">
+                        <img src="data:image/png;base64,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"
+                            alt="">
+                    </div>
+                    <div class="client-details">
+                        <h4>SIEMENS</h4>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="client-media">
+                        <img src="https://seeklogo.com/images/P/pakistan-petroleum-logo-B9039BFFF6-seeklogo.com.png"
+                            alt="">
+                    </div>
+                    <div class="client-details">
+                        <h4>Paksitan petroleum limited</h4>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="client-media">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf6kbYOPj9sY_GkPeoOyY17I3InjAtMUF6xQyNsS0sSK5-hvbOWaiBeXaTDz21lMPMJUI&usqp=CAU"
+                            alt="">
+                    </div>
+                    <div class="client-details">
+                        <h4>English Biscuits Manufacturers (PVT) LTD</h4>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="client-media">
+                        <img src="https://seeklogo.com/images/B/bank-alfalah-logo-01F0028941-seeklogo.com.png" alt="">
+                    </div>
+                    <div class="client-details">
+                        <h4>Bank Alfalah</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="contact-h" id="contactus">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact" id="contactus">
+            <div class="left-one">
+                <h2><i class="fa-solid fa-location-dot" style="font-size: xx-large;"></i> Our Office Address
+                </h2>
+                <p>Mateen Shopping Galaxy Fourth Floor F-04 Rashid Minhas Rd Service Ln,<br> Block 10-A
+                    Block 10 A
+                    Gulshan-e-Iqbal, Karachi, Karachi City, Sindh, Pakistan</p>
+                <h2><i class="fa-regular fa-envelope" style="font-size: xx-large;"></i> Enquiries</h2>
+                <a href="mailto:os-services@hotmail.com">os-services@hotmail.com</a><br><br>
+                <h2><i class="fa-solid fa-phone" style="font-size: xx-large;"></i> Call Us</h2>
+                <a href="tel:+923212277188"> +923212277188</a>
+            </div>
+            <div class="right-one">
+                <form action="">
+                    <input type="name" name="name" id="" class="name" placeholder="Your Name"
+                        style="width: 40vw;height: 35px; border-radius: 10px; border: 1px solid silver;"><br><br>
+                    <input type="email" name="email" id="" class="email" placeholder="Your Email"
+                        style="width: 40vw;height: 35px; border-radius: 10px; border: 1px solid silver;"><br><br>
+                    <input type="number" name="number" id="" class="number" placeholder="Your Contact No"
+                        style="width: 40vw;height: 35px; border-radius: 10px; border: 1px solid silver;"><br><br>
+                    <input type="message" name="message" id="" class="message" placeholder="Message"
+                        style="width: 40vw;height: 35px; border-radius: 10px; border: 1px solid silver;"><br><br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.764394706697!2d67.10894537443131!3d24.90601694343488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339273156929d%3A0xa7ddecf74ae58ed5!2sMateen%20Shopping%20Galaxy%2C%20Rashid%20Minhas%20Rd%20Service%20Ln%2C%20Block%2010-A%20Block%2010%20A%20Gulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1724417493345!5m2!1sen!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer">
+            <div class="useful-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#ourservices">Services</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <h3>Contact Details</h3>
+                <p>Mateen Shopping Galaxy Fourth Floor <br>F-04 Rashid Minhas Rd Service Ln, <br> Block 10-A
+                    Block 10 A
+                    Gulshan-e-Iqbal, Karachi, <br> Karachi City, Sindh, Pakistan</p>
+                <i class="fa fa-envelope" style="font-size:24px"></i> <a
+                    href="mailto:os-services@hotmail.com">os-services@hotmail.com</a>
+                <br>
+                <br>
+                <i class="fa fa-phone" style="font-size:30px"></i><a href="tel:+923212277188">
+                    +923212277188</a>
+                <p>Feel free to call us</p>
+            </div>
+            <div class="connect">
+                <h3>Connect</h3>
+                <a href="https://wa.me/923212277188?text=I'm%20interested%20in%20doing%20business%20please%20contact">
+                    <img alt="Chat on WhatsApp" src="./ChatOnWhatsAppButton/WhatsAppButtonGreenSmall.svg" />
+                    <a />
+                    <i style="font-size: 25px;" class="fa-brands fa-facebook"></i>
+                    <i style="font-size: 25px;" class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyrights 2024.All Rights Reserved O S SERVICES | Made by SHEHARYAR KHAN</p>
+        </div>
+    </div>
+</body>
+
+</html>
