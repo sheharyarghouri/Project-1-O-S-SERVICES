@@ -1,13 +1,17 @@
 body {
     margin: 0%;
     padding: 0%;
+    line-height: 1.6;
+    box-sizing: border-box;
 }
+
 
 .header {
     padding: 1%;
     display: flex;
     /* background-color: rgb(49, 18, 18); */
     background-color: #0099F7;
+    border-bottom: 2px solid #FFC1A1;
 }
 
 .navbar {
@@ -35,6 +39,7 @@ body {
     text-align: center;
     animation-name: nav;
     animation-duration: 1.2s;
+    text-decoration: underline;
 
 }
 
@@ -67,11 +72,11 @@ body {
 
 @keyframes anilogo {
     from {
-        left: 0px;
+        opacity: 0;
     }
 
     to {
-        left: 15vw;
+        opacity: 1;
     }
 }
 
@@ -323,10 +328,11 @@ p {
 
 .footer {
     display: flex;
+    text-align: center;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: rgb(96, 171, 221);
+    background-color: #A3D5C3;
 }
 
 .useful-links ul li {
